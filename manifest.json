@@ -1,0 +1,38 @@
+{
+  "manifest_version": "0.4",
+  "name": "Blender MCP Plus",
+  "version": "1.0.3",
+  "description": "MCP server for Blender: official Blender Lab tools + Poly Haven asset library",
+  "long_description": "Blender MCP Plus gives an LLM client natural-language access to a running Blender instance. It includes the official Blender Lab tool set (code execution, scene inspection, Python API and manual search, screenshots, headless Blender) plus a Poly Haven asset library bridge (`search_assets` / `import_asset`) for free CC0 models, HDRIs and textures.\n\nAn official Blender add-on is required: install `mcp-1.0.3.zip` from https://projects.blender.org/lab/blender_mcp/releases and enable the `MCP` add-on in Blender 5.1 or newer.",
+  "author": {
+    "name": "blender-mcp-plus contributors",
+    "url": "https://github.com/lusilong/blender-mcp-plus"
+  },
+  "homepage": "https://github.com/lusilong/blender-mcp-plus",
+  "support": "https://github.com/lusilong/blender-mcp-plus/issues",
+  "icon": "blender_icon.png",
+  "server": {
+    "type": "uv",
+    "entry_point": "blender_mcp_plus/__init__.py",
+    "mcp_config": {
+      "command": "uv",
+      "args": [
+        "run",
+        "blender-mcp-plus"
+      ]
+    }
+  },
+  "license": "GPL-3.0-or-later",
+  "privacy_policies": [
+    "https://www.blender.org/privacy-policy/"
+  ],
+  "compatibility": {
+    "runtimes": {
+      "python": ">= 3.10"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lusilong/blender-mcp-plus"
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+tests/
+scripts/
+docs/
+.github/
+dist/
+.git/
+.pytest_cache/
+FORK_NOTES.md
+requirements_dev.txt

@@ -1,0 +1,27 @@
+Blender MCP Plus
+Copyright (C) 2026 blender-mcp-plus contributors
+
+This program is a derivative work of blender_mcp by the Blender Authors:
+  https://projects.blender.org/lab/blender_mcp
+  License: GPL-3.0-or-later
+
+Modifications in this repository:
+  * Added Poly Haven asset tools (`search_assets`, `import_asset`).
+  * Fixed `*_for_cli` tools hanging when the MCP server itself uses piped stdio
+    (child process output is now captured through temporary files).
+  * Renamed the Python module to `blender_mcp_plus` for a standalone distribution.
+
+This program is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this
+program.  If not, see <https://www.gnu.org/licenses/>.
+
+The bundled Blender Python API reference and user manual files under
+`blender_mcp_plus/data/` are derived from Blender documentation and are covered by
+the same GPL-3.0-or-later license.
